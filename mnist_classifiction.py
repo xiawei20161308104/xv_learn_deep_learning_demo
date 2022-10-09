@@ -6,9 +6,8 @@
 '''
 # 多分类类别标签转化为卷积层概率数组
 from sklearn.metrics import accuracy_score
-from tensorflow.keras.layers import Dense, Activation
+from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
-import imp
 from tensorflow.keras.utils import to_categorical
 from matplotlib import pyplot as plt
 from tensorflow.keras.datasets import mnist
